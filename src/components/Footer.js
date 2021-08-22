@@ -9,6 +9,7 @@ export default function Header({ currentPage }) {
             <Link to="/my-pokemons" className={currentPage === 'my-pokemons' ? 'active' : ''}>My Pokémons</Link>
         </Container>
     );
+
 }
 
 const Container = styled.div`
